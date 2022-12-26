@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Basic  Linkedin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+
+    <string name="user_image_1">https://media.licdn.com/dms/image/D5635AQHUKQC1lWUPZQ/profile-framedphoto-shrink_400_400/0/1671712202032?e=1672632000&amp;v=beta&amp;t=YtROt1oY889jM0bcVg4sSx9LMQkDJdcOtOt7wMDkGuU</string>
+    <string name="name_1">Rashad Kabir</string>
+    <string name="title_1">Director at Bangladesh Association of Software and Information Services (BASIS)</string>
+    <string name="user_name_1">Rashad Kabir</string>
+    <string name="message_1">We(Dream71 Bangladesh Ltd) are hiring two(02) Python Developers\nCompany Website: www.dream71.com\nPosition Name : Software Engineer ( Python Developer)</string>
+    <string name="connection_type_1">1st</string>
+    <string name="time_1">16h</string>
+    <string name="post_image_1">https://media.licdn.com/dms/image/C5622AQGj4uu9T-e5iA/feedshare-shrink_800/0/1671981350208?e=1674691200&amp;v=beta&amp;t=Zvcx4lPDjQj0eD2OEyT9ilSKIBoAaiN2y8yYw0ISXes</string>
+
+    <string name="user_image_2">https://media.licdn.com/dms/image/D5635AQHUKQC1lWUPZQ/profile-framedphoto-shrink_400_400/0/1671712202032?e=1672632000&amp;v=beta&amp;t=YtROt1oY889jM0bcVg4sSx9LMQkDJdcOtOt7wMDkGuU</string>
+    <string name="name_2">Rashad Kabir</string>
+    <string name="title_2">Director at Bangladesh Association of Software and Information Services (BASIS)</string>
+    <string name="user_name_2">Rashad Kabir</string>
+    <string name="message_2">We(Dream71 Bangladesh Ltd) are hiring two(02) Python Developers\nCompany Website: www.dream71.com\nPosition Name : Software Engineer ( Python Developer)</string>
+    <string name="connection_type_2">1st</string>
+    <string name="time_2">16h</string>
+    <string name="post_image_2">https://media.licdn.com/dms/image/C5622AQGj4uu9T-e5iA/feedshare-shrink_800/0/1671981350208?e=1674691200&amp;v=beta&amp;t=Zvcx4lPDjQj0eD2OEyT9ilSKIBoAaiN2y8yYw0ISXes</string>
+
+    <string name="user_image_3">https://media.licdn.com/dms/image/D5635AQHUKQC1lWUPZQ/profile-framedphoto-shrink_400_400/0/1671712202032?e=1672632000&amp;v=beta&amp;t=YtROt1oY889jM0bcVg4sSx9LMQkDJdcOtOt7wMDkGuU</string>
+    <string name="name_3">Rashad Kabir</string>
+    <string name="title_3">Director at Bangladesh Association of Software and Information Services (BASIS)</string>
+    <string name="user_name_3">Rashad Kabir</string>
+    <string name="message_3">We(Dream71 Bangladesh Ltd) are hiring two(02) Python Developers\nCompany Website: www.dream71.com\nPosition Name : Software Engineer ( Python Developer)</string>
+    <string name="connection_type_3">1st</string>
+    <string name="time_3">16h</string>
+    <string name="post_image_3">https://media.licdn.com/dms/image/C5622AQGj4uu9T-e5iA/feedshare-shrink_800/0/1671981350208?e=1674691200&amp;v=beta&amp;t=Zvcx4lPDjQj0eD2OEyT9ilSKIBoAaiN2y8yYw0ISXes</string>
+    <string name="theme">Theme</string>
+    <string name="twitterusername">TwitterUsername</string>
+    <string name="nur_uddin">Nur Uddin</string>
+    <string name="nuruddin_gmail_com">nuruddin@gmail.com</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+
+</resources>
