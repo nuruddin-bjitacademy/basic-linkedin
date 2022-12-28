@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/menu_home"
+    <item android:id="@+id/homeFragment"
         android:title="@string/home"
         android:icon="@drawable/icon_home"
         android:checked="true"
         android:checkable="true"
         />
-    <item android:id="@+id/menu_profile"
+    <item android:id="@+id/myProfileFragment"
         android:title="@string/profile"
         android:icon="@drawable/icon_profile"
         android:checkable="true"
         />
-    <item android:id="@+id/menu_settings"
+    <item android:id="@+id/createPostFragment"
+        android:title="post"
+        android:icon="@drawable/post"
+        android:checkable="true"
+        />
+    <item android:id="@+id/settingsFragment"
         android:title="@string/settings"
         android:icon="@drawable/icon_settings"
         android:checkable="true"

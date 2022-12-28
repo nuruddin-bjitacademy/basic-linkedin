@@ -7,6 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue">#2196F3</color>
+
+    // Custom color
+    <color name="text_1">#000000</color>
+    <color name="btn_disable">#8C8A8A</color>
+    <color name="text_disable">#C3C0C0</color>
 
 
     <color name="address">#2F7092</color>

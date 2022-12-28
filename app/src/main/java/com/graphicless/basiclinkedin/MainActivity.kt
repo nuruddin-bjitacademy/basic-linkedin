@@ -2,12 +2,14 @@ package com.graphicless.basiclinkedin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
 import com.graphicless.basiclinkedin.fragment.HomeFragment
+import com.graphicless.basiclinkedin.fragment.MyProfileFragment
 import com.graphicless.basiclinkedin.fragment.ProfileFragment
 import com.graphicless.basiclinkedin.fragment.SettingsFragment
 import kotlinx.android.synthetic.main.activity_main.*
@@ -21,30 +23,26 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val sharedPreference:SharedPreference = SharedPreference(this)
+
+        if (sharedPreference.getValueString("theme")!=null) {
+            val myTheme = sharedPreference.getValueString("theme")
+            if(myTheme == "light")
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            else
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+        }else{
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+        }
+
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
         setupActionBarWithNavController(navController)
-        
-        bottom_navigation_view.setOnNavigationItemSelectedListener {
-            when(it.itemId){
-                R.id.menu_home->setCurrentFragment(HomeFragment())
-                R.id.menu_profile->setCurrentFragment(ProfileFragment())
-                R.id.menu_settings->setCurrentFragment(SettingsFragment())
 
-            }
-            true
-        }
+        bottom_navigation_view.setupWithNavController(navController)
+
     }
-
-    private fun setCurrentFragment(fragment: Fragment)=
-        supportFragmentManager.beginTransaction().apply {
-            replace(R.id.nav_host_fragment,fragment)
-            commit()
-        }
-
-
-
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp() || super.onSupportNavigateUp()
     }
